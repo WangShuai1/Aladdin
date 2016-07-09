@@ -47,6 +47,14 @@ angular.module('starter', ['ionic', 'starter.controller'])
         }
       }
     })
+    .state('tabs.shoppingCar', {
+      url: '/shoppingCar',
+      views: {
+        'shoppingCar-tab': {
+          templateUrl: './tpls/shoppingCar.html'
+        }
+      }
+    })
     .state('tabs.my', {
       url: '/my',
       views: {
