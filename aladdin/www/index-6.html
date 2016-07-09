@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+    <div class="bar bar-header bar-positive">
+      <button class="button button-clear button-icon ion-navicon"></button>
+      <h1 class="title">足球圈</h1>
+      <button class="button button-clear button-icon ion-qr-scanner"></button>
+    </div>
+
+    <ion-content class="has-header has-footer">
+      <ul class="list">
+        <li class="item">
+          <label class="toggle">
+            <input type="checkbox" checked="true">
+            <div class="track">
+              <div class="handle"></div>
+            </div>
+          </label>
+        </li>
+      </ul>
+
+      <ul class="list">
+        <li class="item item-checkbox">
+          <label class="checkbox checkbox-assertive">
+            <input type="checkbox" checked>
+          </label>
+          Red
+        </li>
+        <li class="item item-checkbox">
+          <label class="checkbox">
+            <input type="checkbox">
+          </label>
+          Green
+        </li>
+        <li class="item item-checkbox">
+          <label class="checkbox">
+            <input type="checkbox">
+          </label>
+          Blue
+        </li>
+      </ul>
+
+      <ion-list>
+        <ion-checkbox ng-model="true" class="checkbox-royal">Red</ion-checkbox>
+        <ion-checkbox>Green</ion-checkbox>
+        <ion-checkbox>Blue</ion-checkbox>
+      </ion-list>
+
+      <div class="list">
+        <label class="item item-radio">
+          <input type="radio" name="group" value=".net">
+          <div class="item-content">.net</div>
+          <i class="radio-icon ion-checkmark"></i>
+        </label>
+        <label class="item item-radio">
+          <input type="radio" name="group" value="">
+          <div class="item-content">java</div>
+          <i class="radio-icon ion-checkmark"></i>
+        </label>
+      </div>
+
+      <ion-list>
+        <ion-radio ng-model="choice" ng-value="A">Choice A</ion-radio>
+        <ion-radio ng-model="choice" ng-value="B">Choice B</ion-radio>
+      </ion-list>
+
+      <div class="list">
+        <div class="item range range-assertive">
+          <i class="icon ion-volume-low"></i>
+          <input type="range" name="volume">
+          <i class="icon ion-volume-high"></i>
+        </div>
+      </div>
+
+      <div class="list">
+        <label class="item item-input item-select">
+          <div class="input-label">Lightsaber</div>
+          <select name="" id="">
+            <option value="">Blue</option>
+            <option value="" selected="true">Green</option>
+            <option value="">Red</option>
+          </select>
+        </label>
+      </div>
+    </ion-content>
+
+    <div class="tabs tabs-icon-top tabs-stable">
+      <a class="tab-item active">
+        <i class="icon ion-home"></i>
+        首页
+      </a>
+      <a class="tab-item">
+        <i class="icon ion-star"></i>
+        收藏
+      </a>
+      <a class="tab-item">
+        <i class="icon ion-gear-a"></i>
+        设置
+      </a>
+    </div>
+  </body>
+</html>
