@@ -2,6 +2,9 @@ angular.module('starter.controller', [])
   .controller('tabController', ['$scope', function ($scope) {
 
   }])
+  // .controller('homeController', ['$scope', function ($scope) {
+
+  // }])
   .controller('listController', ['$scope', '$ionicListDelegate', function ($scope, $ionicListDelegate) {
     $scope.scrollAction = function () {
       console.log('scrolling...');

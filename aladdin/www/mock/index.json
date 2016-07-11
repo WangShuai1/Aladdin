@@ -1,0 +1,477 @@
+{
+    "status": "0",
+    "info": "获取首页信息列表成功",
+    "msg": {
+        "top_banner": [
+            {
+                "id": "10",
+                "city_id": "",
+                "img": "./img/banner1.png",
+                "url": "news_id=1",
+                "type": "1"
+            },
+            {
+                "id": "5",
+                "city_id": "",
+                "img": "./img/banner2.png",
+                "url": "news_id=5",
+                "type": "1"
+            }
+        ],
+        "fresh_data": [
+            {
+                "id": "634",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201603/041457075760772549.jpg",
+                "name": "牛油果（个）",
+                "money": "20.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1457075766"
+            },
+            {
+                "id": "633",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201603/041457075599109928.jpg",
+                "name": "昭通红富士（1千克）",
+                "money": "17.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1457075607"
+            },
+            {
+                "id": "631",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201603/041457075438110578.jpg",
+                "name": "海南香蕉（1千克）",
+                "money": "9.90",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1457075449"
+            },
+            {
+                "id": "630",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201603/041457075386116487.jpg",
+                "name": "广东砂糖柑（1千克）",
+                "money": "17.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1457075391"
+            },
+            {
+                "id": "629",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201603/041457075334378679.jpeg",
+                "name": "进口蓝莓（150克）",
+                "money": "25.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1457075343"
+            },
+            {
+                "id": "628",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201603/041457075198621809.jpg",
+                "name": "库尔勒香梨（1千克）",
+                "money": "19.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1457075207"
+            },
+            {
+                "id": "627",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201603/041457075141835332.jpg",
+                "name": "泰国青柚（1千克）",
+                "money": "28.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1457075152"
+            },
+            {
+                "id": "626",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201603/041457074921706151.jpg",
+                "name": "宾川脐橙（500克）",
+                "money": "7.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1457074940"
+            },
+            {
+                "id": "625",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201603/041457074847189856.jpg",
+                "name": "奶油草莓（500克）",
+                "money": "20.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1457074857"
+            },
+            {
+                "id": "469",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201507/091436423224277167.png",
+                "name": "麒麟瓜（1千克）",
+                "money": "4.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1436423263"
+            },
+            {
+                "id": "436",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201507/091436412551135502.png",
+                "name": "黑美人（1千克)",
+                "money": "7.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1436412588"
+            },
+            {
+                "id": "416",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201603/041457075684815366.jpg",
+                "name": "车厘子（1千克）",
+                "money": "69.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1436407393"
+            },
+            {
+                "id": "414",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201507/091436407191501019.png",
+                "name": "菠萝（个）约500克",
+                "money": "6.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1436407258"
+            },
+            {
+                "id": "277",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201507/061436170248977596.png",
+                "name": "美国红蛇果（1千克）",
+                "money": "49.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1436170282"
+            },
+            {
+                "id": "274",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201507/061436169996118780.png",
+                "name": "进口红提（1千克)",
+                "money": "49.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1436170046"
+            },
+            {
+                "id": "273",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201603/041457075022384575.jpg",
+                "name": "极品红富士（1千克）",
+                "money": "19.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1436169982"
+            },
+            {
+                "id": "272",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201507/061436169436580283.png",
+                "name": "火龙果（1千克）",
+                "money": "16.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1436169909"
+            },
+            {
+                "id": "271",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201507/061436169374562597.png",
+                "name": "黄心奇异果（500克）",
+                "money": "69.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1436169408"
+            },
+            {
+                "id": "36",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/261432623886280825.jpg",
+                "name": "山东老黄姜（250克）",
+                "money": "2.30",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431594649"
+            },
+            {
+                "id": "27",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/261432624594559456.jpg",
+                "name": "荷兰豆（500克）",
+                "money": "6.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431594364"
+            },
+            {
+                "id": "19",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/261432625197809427.jpg",
+                "name": "大青椒(250克）",
+                "money": "1.30",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431594201"
+            },
+            {
+                "id": "7",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/261432626063119361.png",
+                "name": "薄荷(250克）",
+                "money": "2.50",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431593471"
+            },
+            {
+                "id": "534",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201507/101436498953124736.png",
+                "name": "油豆腐（500克/份）",
+                "money": "8.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1436499019"
+            },
+            {
+                "id": "530",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201507/101436498523904657.png",
+                "name": "魔芋豆腐（500克）",
+                "money": "3.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1436498622"
+            },
+            {
+                "id": "528",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201507/101436498006419904.png",
+                "name": "鲜豆腐（500克）",
+                "money": "3.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1436498048"
+            },
+            {
+                "id": "424",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201507/091436411297796174.png",
+                "name": "带壳豌豆（500克/份）",
+                "money": "5.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1436411333"
+            },
+            {
+                "id": "94",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/261432621465330096.png",
+                "name": "本地芥兰（500克/份）",
+                "money": "4.30",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431595809"
+            },
+            {
+                "id": "91",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/211432178412928496.jpg",
+                "name": "青土豆（1千克）",
+                "money": "2.80",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431595761"
+            },
+            {
+                "id": "87",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/211432178974473909.jpg",
+                "name": "香菜（250克）",
+                "money": "2.50",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431595682"
+            },
+            {
+                "id": "82",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/261432621549815710.png",
+                "name": "小苦菜(1千克）",
+                "money": "7.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431595576"
+            },
+            {
+                "id": "80",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/261432621622500287.png",
+                "name": "小葱（250克）",
+                "money": "2.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431595541"
+            },
+            {
+                "id": "77",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/261432621663117141.png",
+                "name": "香菇（500克）",
+                "money": "8.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431595492"
+            },
+            {
+                "id": "76",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/261432621697134297.png",
+                "name": "鲜笋尖（500克）",
+                "money": "7.50",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431595476"
+            },
+            {
+                "id": "621",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201602/031454479012458202.jpg",
+                "name": "豌豆尖（1千克）",
+                "money": "11.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1454479043"
+            },
+            {
+                "id": "487",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201507/091436426151259223.png",
+                "name": "山药（1千克）",
+                "money": "8.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1436426186"
+            },
+            {
+                "id": "473",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201507/091436424239269034.png",
+                "name": "生菜（1千克）",
+                "money": "8.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1436424274"
+            },
+            {
+                "id": "97",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/211432177263297048.jpg",
+                "name": "皱皮椒（500克）",
+                "money": "3.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431595880"
+            },
+            {
+                "id": "92",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/211432178153770570.jpg",
+                "name": "玉米棒（1千克）",
+                "money": "5.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431595776"
+            },
+            {
+                "id": "86",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/211432179036405230.jpg",
+                "name": "红小米辣（250克/份）",
+                "money": "2.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431595664"
+            },
+            {
+                "id": "42",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/261432623307396753.jpg",
+                "name": "瓢儿菜（1千克）",
+                "money": "3.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431594869"
+            },
+            {
+                "id": "37",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201508/131439447397751162.jpg",
+                "name": "姜柄瓜（1千克）",
+                "money": "8.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431594677"
+            },
+            {
+                "id": "32",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/261432624220121633.jpg",
+                "name": "洋花菜（1千克）",
+                "money": "9.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431594542"
+            },
+            {
+                "id": "25",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/251432544460531829.jpg",
+                "name": "番茄（500克）",
+                "money": "3.30",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431594328"
+            },
+            {
+                "id": "13",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/261432625663108302.jpg",
+                "name": "茨菇（1千克）",
+                "money": "8.00",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431593837"
+            },
+            {
+                "id": "8",
+                "city_id": "2401",
+                "img_logo": "/ueditor/image/201505/261432625976459536.jpg",
+                "name": "菠菜（500克）",
+                "money": "3.30",
+                "vip_id": "22",
+                "vip_name": "原始生鲜",
+                "add_time": "1431593660"
+            }
+        ],
+        "shop_data": [],
+        "food_data": [],
+        "help_data": []
+    }
+}

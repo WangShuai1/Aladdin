@@ -1,5 +1,5 @@
 angular.module('starter.controller2', [])
 
-.controller('xx', function () {
+.controller('homeController', function () {
 
 })
