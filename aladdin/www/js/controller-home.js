@@ -2,8 +2,21 @@ angular.module('starter.controller2', [])
   .controller('tabController', ['$scope', function ($scope) {
 
   }])
-  .controller('homeController', ['$scope','$http',function ($scope, $http) {
+  .controller('homeController', ['$scope','$http', '$timeout', '$ionicLoading',function ($scope, $http, $timeout, $ionicLoading) {
   	$scope.myActiveSlide = 1;
+    // Setup the loader
+      $ionicLoading.show({
+        content: 'loading',
+        animation: 'fade-out',
+        showBackdrop: true,
+        maxWidth: 100,
+        showDelay: 0
+      });
+    
+    // Set a timeout to clear loader, however you would actually call the $ionicLoading.hide(); method whenever everything is ready or loaded.
+      $timeout(function () {
+        $ionicLoading.hide();
+      }, 2000);
     // $scope.does-continue = true;
     // $http.get('./mock/index.json')
     // .then(
