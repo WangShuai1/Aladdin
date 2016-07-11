@@ -3,23 +3,24 @@ angular.module('starter.controller2', [])
 
   }])
   .controller('homeController', ['$scope','$http',function ($scope, $http) {
-  	
-    $http.get('./mock/index.json')
-    .then(
-      function (res) {
-        $scope.livelist = res.data.msg;
-        $scope.banner = res.data.msg.top_banner;
-        $scope.guideSwpier = new Swiper('.guide-swiper',{
-           loop: true,
-           autoplay:1000,
-        // 如果需要分页器
-        pagination: '.swiper-pagination'
-         });
-      },
-      function (err) {
-        $log.error(err);
-      }
-    )
+  	$scope.myActiveSlide = 1;
+    // $scope.does-continue = true;
+    // $http.get('./mock/index.json')
+    // .then(
+    //   function (res) {
+    //     $scope.livelist = res.data.msg;
+    //     $scope.banner = res.data.msg.top_banner;
+    //     $scope.guideSwpier = new Swiper('.guide-swiper',{
+    //        loop: true,
+    //        autoplay:1000,
+    //     // 如果需要分页器
+    //     pagination: '.swiper-pagination'
+    //      });
+    //   },
+    //   function (err) {
+    //     $log.error(err);
+    //   }
+    //)
    
     // $http({
     //   url: '../mock/index.json',

@@ -9878,9 +9878,14 @@ html {
 .home-main .banner {
   width: 100%;
   height: 1.65rem; }
-  .home-main .banner img {
-    width: 100%;
-    height: 100%; }
+  .home-main .banner .slider {
+    height: 100%;
+    background: #000; }
+  .home-main .banner .slider-slide {
+    background: #000; }
+    .home-main .banner .slider-slide img {
+      width: 100%;
+      height: 100%; }
 
 .home-main .list-item {
   display: flex;

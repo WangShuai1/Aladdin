@@ -23,7 +23,7 @@
 </ion-header-bar>
 <ion-content scrollbar-y="false" class="has-header home-main">
 	<div class="banner">
-		<div class="swiper-container guide-swiper">
+		<!-- <div class="swiper-container guide-swiper">
 			<div class="swiper-wrapper">
 				
 				<div class="swiper-slide">
@@ -35,9 +35,19 @@
 				</div>
 			</div>
 			<!-- 如果需要分页器 -->
-			<div class="swiper-pagination"></div>
-		</div>
-		
+			<!-- <div class="swiper-pagination"></div>
+		</div> --> 
+		<ion-slide-box does-continue="true" class="ion-banner">
+			<ion-slide>
+			  <img src="./img/banner1.png"/>
+			</ion-slide>
+			<ion-slide>
+			  <img src="./img/banner2.png"/>
+			</ion-slide>
+			<ion-slide>
+			  <img src="./img/banner1.png"/>
+			</ion-slide>
+		</ion-slide-box>		
 	</div>
 	<div class="list list-item">
 			<ion-item class="item-thumbnail-top item-on">
