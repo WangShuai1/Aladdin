@@ -9896,3 +9896,25 @@ b, strong {
       border-top: 0; }
   .scroll .item-icon-left .icon {
     font-size: 24px; }
+
+body {
+  width: 100%;
+  height: 100%; }
+  body .pane {
+    width: 100%;
+    height: 100%; }
+    body .pane .scroll {
+      height: 100%;
+      position: relative;
+      background-color: #f8f8f8; }
+    body .pane .shoppingCarbg {
+      transform: translate(60%, 100%);
+      width: 150px;
+      height: 150px;
+      background: url("../img/tx12.png") no-repeat;
+      background-size: contain; }
+      body .pane .shoppingCarbg span {
+        color: orange;
+        position: absolute;
+        top: 90%;
+        left: 20%; }
